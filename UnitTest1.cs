@@ -72,7 +72,7 @@ public class UnitTest1
         driver.FindElement(By.Id("txtno1")).SendKeys("12");
         driver.FindElement(By.Id("txtno2")).SendKeys("5");
 
-       list1.SelectByValue("Multiply");
+        list1.SelectByValue("Multiply");
         Thread.Sleep(1200);
         driver.FindElement(By.Id("btnsrcvcalc")).Click();
 
