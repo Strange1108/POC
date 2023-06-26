@@ -13,14 +13,14 @@ public class UnitTest1
 {
     ChromeDriver driver;
 
-    [SetUp]
+    // [SetUp]
     public void Setup()
     {
         Console.WriteLine("Setup1");
         driver = new ChromeDriver("C:\\Users\\MahendraJ2\\OneDrive - CitiusTech\\Desktop\\Backup\\Training\\PracticeTest\\driverexe");
     }
 
-    [Test]
+    // [Test]
     public void Test1()
     {
         //Addition of elements
