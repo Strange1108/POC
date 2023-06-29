@@ -17,7 +17,7 @@ public class UnitTest1
     public void Setup()
     {
         Console.WriteLine("Setup1");
-        driver = new ChromeDriver("C:\\Users\\MahendraJ2\\OneDrive - CitiusTech\\Desktop\\Backup\\Training\\PracticeTest\\driverexe");
+        driver = new ChromeDriver();
     }
 
     [Test]
